@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find my_gurdy_description)/launch/spawn_gurdy_urdf.launch"/>
+    <include file="$(find my_gurdy_description)/launch/gurdy_controller.launch"/>
+</launch>

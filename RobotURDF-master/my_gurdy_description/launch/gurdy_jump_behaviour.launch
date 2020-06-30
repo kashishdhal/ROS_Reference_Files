@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+    
+    <node name="jump_behaviour_node"
+    pkg="my_gurdy_description"
+    type="jump_behaviour.py"
+    respawn="false"
+    output="screen"
+    args=""/>
+
+
+</launch>

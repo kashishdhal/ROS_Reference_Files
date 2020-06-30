@@ -1,0 +1,5 @@
+ur5:
+  elbow_joint_position_controller:
+    type: project_controller/PositionController
+    joint: elbow_joint
+    pid: {p: 1.0, i: 1.0, d: 0.0}

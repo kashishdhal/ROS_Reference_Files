@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+    
+    <node name="gurdy_mover_node"
+    pkg="my_gurdy_description"
+    type="gurdy_mover.py"
+    respawn="false"
+    output="screen"
+    args=""/>
+
+
+</launch>
