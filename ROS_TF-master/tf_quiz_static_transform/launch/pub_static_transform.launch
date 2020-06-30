@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="world_frames_connection" 
+          args="0 0 0 0 0 0 robot1_tf/odom robot2_tf/odom 10">
+    </node>
+
+    
+</launch>
